@@ -1,4 +1,4 @@
-python
+# python code to generate payment slip
 import random
 import json
 
@@ -42,7 +42,7 @@ def generate_payment_slips(workers):
     return payment_slips
 
 # Main execution
-if name == "__main__":
+if __name__ == "__main__":
     try:
         num_workers = 400
         workers = generate_workers(num_workers)
